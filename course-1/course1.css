@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside {
+  height: 100vh;
+  width: 20%;
+  background-color: #4e4a4a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: auto;
+}
+
+aside .left {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 260px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+aside h2 {
+  padding: 5px 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
+}
+
+aside .lessons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+aside .lessons .links {
+  border: none;
+  white-space: nowrap;
+  background-color: lightgreen;
+  color: black;
+  width: 200px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px 0 0 10px;
+  border-right: 2px solid black;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+aside .lessons .links:hover {
+  background-color: #64e764;
+  -webkit-box-shadow: 0px 0px 10px 5px #ffffff93;
+          box-shadow: 0px 0px 10px 5px #ffffff93;
+}
+
+aside .lessons .codes {
+  height: 40px;
+  width: 40px;
+  background-color: lightgreen;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+aside .lessons .codes:hover {
+  background-color: #64e764;
+  -webkit-box-shadow: 0px 0px 10px 5px #ffffff93;
+          box-shadow: 0px 0px 10px 5px #ffffff93;
+}
+
+iframe {
+  height: 100vh;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.codeSection {
+  display: none;
+}
+
+.rightSection {
+  width: 80%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=course1.css.map */
