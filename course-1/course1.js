@@ -8,7 +8,6 @@ const codeSection = document.getElementsByClassName("codeSection")[0];
 const codePre = document.getElementsByTagName("pre")[0];
 const rightSection = document.getElementsByClassName("rightSection");
 
-// console.log(links[0].attributes.info.value);
 //IFRAME İÇİN
 for(let i = 0;i<links.length;i++){
     links[i].addEventListener("click",()=>{
@@ -17,15 +16,6 @@ for(let i = 0;i<links.length;i++){
         iframe.src = links[i].attributes.info.value+"/lesson.html";
     })
 }
-
-//KODLAR İÇİN
-// for(let i = 0;i<codes.length;i++){
-//     codes[i].addEventListener("click",()=>{
-//         iframe.style.display = "none";
-//         codeSection.style.display = "block";
-//         codePre.innerHTML = codes[i].attributes.info.value;
-//     })
-// }
 
 
 
