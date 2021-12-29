@@ -13,7 +13,7 @@ for(let i = 0;i<links.length;i++){
     links[i].addEventListener("click",()=>{
         iframe.style.display = "block";
         codeSection.style.display = "none";
-        iframe.src = links[i].attributes.info.value+"/lesson.html";
+        iframe.src = links[i].attributes.info.value+"/lesson-1.html";
     })
 }
 

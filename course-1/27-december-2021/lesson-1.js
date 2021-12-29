@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+const pre = document.getElementsByTagName("pre")[0];
+let htmlCodes = `<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -35,3 +36,26 @@
         />
     </body>
 </html>
+`;
+
+console.log(htmlCodes);
+
+function thanChanger(htmlCode) {
+    let newHtmlCode = ``;
+    for (let i = 0; i < htmlCode.length; i++) {
+        if (htmlCode[i] == "<") {
+            newHtmlCode += `&lt;`;
+        } else if (htmlCode[i] == ">") {
+            newHtmlCode += `&gt;`;
+        } else {
+            newHtmlCode += htmlCode[i];
+        }
+    }
+    return newHtmlCode;
+}
+
+htmlCodes = thanChanger(htmlCodes);
+
+console.log(htmlCodes);
+
+pre.innerHTML = htmlCodes;
