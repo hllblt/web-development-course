@@ -45,6 +45,7 @@ body {
             justify-content: space-evenly;
             .lessonLinks {
                 text-decoration: none;
+                border: 3px solid transparent;
                 color: black;
                 background-color: white;
                 width: 150px;
@@ -60,6 +61,7 @@ body {
             .lessonLinks:hover{
                 background-color: rgb(53, 48, 48);
                 color: yellow;
+                border-color: yellow;
             }
         }
     }

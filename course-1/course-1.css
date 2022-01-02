@@ -70,6 +70,7 @@ body h1 {
 
 .main .months .lessons .lessonLinks {
   text-decoration: none;
+  border: 3px solid transparent;
   color: black;
   background-color: white;
   width: 150px;
@@ -92,5 +93,6 @@ body h1 {
 .main .months .lessons .lessonLinks:hover {
   background-color: #353030;
   color: yellow;
+  border-color: yellow;
 }
 /*# sourceMappingURL=course-1.css.map */
