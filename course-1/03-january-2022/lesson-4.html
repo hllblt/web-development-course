@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lesson 4</title>
+        <style>
+            body {
+                background-color: powderblue;
+            }
+            p {
+                color: brown;
+            }
+            a {
+                text-decoration: none;
+            }
+            .pinkLinks {
+                color: rgb(247, 76, 170);
+                font-weight: bold;
+            }
+            .redLinks {
+                color: red;
+                background-color: yellow;
+                font-size: 20px;
+            }
+            #facebook {
+                text-decoration: overline;
+                border-color: purple;
+                border-style: dashed;
+                border-width: 4px;
+            }
+            #twitter {
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+            }
+            #youtube {
+                border-width: 10px;
+                border-style: dotted;
+                border-color: blue;
+            }
+            #google {
+                border-width: 15px;
+                border-style: groove;
+                border-color: brown;
+            }
+            #gotogoogle {
+                border-width: 10px;
+                border-style: ridge;
+                border-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <p>absoulute path</p>
+        <a
+            class="pinkLinks"
+            id="google"
+            href="https://www.google.com"
+            target="_blank"
+            >Google'a git.</a
+        >
+        <br /><br />
+        <p style="border-width: 5px; border-style: double; border-color: darkmagenta;">relative path</p>
+        <a
+            class="redLinks"
+            href="../31-december-2021/lesson-3.html"
+            target="_blank"
+            >3. Derse git.</a
+        >
+        <br /><br />
+        <a
+            class="pinkLinks"
+            id="facebook"
+            href="https://facebook.com"
+            target="_self"
+            >Facebook'a git.</a
+        >
+        <br /><br />
+        <a
+            class="pinkLinks"
+            href="https://twitter.com"
+            id="twitter"
+            target="_parent"
+            >Twitter'a git</a
+        >
+        <br /><br />
+        <a class="redLinks" id="youtube" href="https:/youtube.com" target="_top"
+            >Youtube'a git.</a
+        >
+        <br /><br />
+        <img src="../27-december-2021/dog.jpg" alt="Köpek resmi" />
+        <a href="https:/hepsiburada.com"
+            ><img
+                src="data:image/jpeg;base64,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"
+                alt=""
+        /></a>
+        <br />
+        <a href="mailto:info@balkkampi.com">Bize Yazın.</a>
+        <br />
+        <a
+            href="https://www.w3schools.com/html/"
+            title="Go to W3Schools HTML section"
+            >Visit our HTML Tutorial</a
+        >
+        <br /><br />
+        <a href="#google" id="gotogoogle">Google linkine git.</a>
+        <br /><br />
+        <a href="tel:5554280940">Call us at 555-428-0940</a>
+    </body>
+</html>
