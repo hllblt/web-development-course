@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lesson 6</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px pink solid;
+                /*border-collapse: collapse;*/
+                font-size: 20px;
+            }
+            table {
+                background-color: lightskyblue;
+                width: 100%;
+                border-spacing: 20px;
+            }
+            th {
+                background-color: yellow;
+                width: 100px;
+                height: 30px;
+                border-radius: 20px;
+            }
+            .trabzon {
+                background-color: rgb(173, 28, 28);
+                color: blue;
+                height: 40px;
+                text-align: center;
+                border-radius: 20px;
+            }
+            .konya {
+                background-color: green;
+                padding-bottom: 30px;
+                margin-top: 50px;
+                color: white;
+                height: 40px;
+                /* vertical-align: top; */
+                border-radius: 20px;
+                text-align: center;
+            }
+            h1 {
+                border: 1px solid green;
+                line-height: 100px;
+                vertical-align: bottom;
+            }
+            td:hover{
+                background-color: lightgray;
+            }
+            .basak{
+                background-color: white;
+            }
+            .galatasaray{
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption style="text-align: right;">Süper Lig</caption>
+            <thead>
+                <tr>
+                    <!--table row-->
+                    <th>Sıra</th>
+                    <!--table heading-->
+                    <th>Takım</th>
+                    <th>G</th>
+                    <th>B</th>
+                    <th>M</th>
+                    <th>P</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 60px;">
+                    <td class="trabzon">1</td>
+                    <td class="trabzon">Trabzonspor</td>
+                    <td class="trabzon" rowspan="2">12</td>
+                    <td class="trabzon" colspan="2">4</td>
+                    <!-- <td class="trabzon">4</td> -->
+                    <td class="trabzon">40</td>
+                </tr>
+                <tr>
+                    <td class="konya">2</td>
+                    <td class="konya">Konyaspor</td>
+                    <!-- <td class="konya">12</td> -->
+                    <td class="konya">4</td>
+                    <td class="konya">5</td>
+                    <td class="konya">34</td>
+                </tr>
+                <tr>
+                    <td class="basak">3</td>
+                    <td class="basak">Başakşehir</td>
+                    <td class="basak">8</td>
+                    <td style="text-align: center;" rowspan="2" colspan="2" class="basak">5</td>
+                    <td class="basak">37</tde=>
+                </tr>
+                <tr>
+                    <td class="galatasaray">4</tdle=>
+                    <td class="galatasaray">Galatasaray</td>
+                    <td class="galatasaray">7</td>
+                    <td class="galatasaray">34</td>
+                </tr>
+            </tbody>
+        </table>
+        <br /><br />
+        <h1 style="margin-top: 100px;">Lorem ipsum dolor sit amet.</h1>
+    </body>
+</html>
