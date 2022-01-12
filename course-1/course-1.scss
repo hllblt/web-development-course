@@ -40,15 +40,19 @@ body {
         .lessons {
             width: 100%;
             margin: 20px 0px;
-            display: flex;
-            flex-wrap: wrap;
+            // display: flex;
+            // flex-wrap: wrap;
+            // justify-content: space-evenly;
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
             justify-content: space-evenly;
+            grid-row-gap: 50px;
             .lessonLinks {
                 text-decoration: none;
                 border: 3px solid transparent;
                 color: black;
                 background-color: white;
-                width: 150px;
+                // width: 150px;
                 // height: 30px;
                 display: flex;
                 border-radius: 20px;

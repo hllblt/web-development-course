@@ -58,14 +58,14 @@ body h1 {
 .main .months .lessons {
   width: 100%;
   margin: 20px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 150px 150px;
+      grid-template-columns: 150px 150px 150px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  grid-row-gap: 50px;
 }
 
 .main .months .lessons .lessonLinks {
@@ -73,7 +73,6 @@ body h1 {
   border: 3px solid transparent;
   color: black;
   background-color: white;
-  width: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
