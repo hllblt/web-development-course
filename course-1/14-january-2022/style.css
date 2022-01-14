@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50%;
+    border: 5px solid red;
+    /* background-color: beige;
+    background-image: url("https://ichef.bbci.co.uk/news/640/cpsprodpb/16FA9/production/_92712149_gettyimages-480164327.jpg");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-attachment: fixed; */
+    background: beige
+        url("https://ichef.bbci.co.uk/news/640/cpsprodpb/16FA9/production/_92712149_gettyimages-480164327.jpg")
+        no-repeat right top;
+}
+h2 {
+    border-left: rgb(63, 63, 236) 5px solid;
+    line-height: 50px;
+    background-color: rgb(205, 237, 248);
+}
+h3 {
+    border-bottom: orange 5px solid;
+    line-height: 50px;
+    background-color: yellow;
+}
+h4 {
+    border-width: 5px 10px 15px 20px;
+    border-style: solid dotted dashed groove;
+    border-color: red;
+}
+#google {
+    /* bu kısma takılma */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bu kısma takılma */
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(64, 64, 223);
+    width: 100px;
+    height: 100px;
+    /* border-radius: 10px 20px 30px 40px; */
+    /* border-radius: 10px 20px 30px 40px / 5px 5px 5px 5px; */
+    border-radius: 50%;
+}
+#twitter {
+    /* bu kısma takılma */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bu kısma takılma */
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(64, 64, 223);
+    width: 200px;
+    height: 100px;
+    /* border-radius: 10px 20px 30px 40px; */
+    /* border-radius: 10px 20px 30px 40px / 5px 5px 5px 5px; */
+    border-radius: 50%;
+    margin: 10px 20px 30px 40px;
+}
+.second {
+    width: 400px;
+    border: 1px solid green;
+    height: 400px;
+}
+.second p {
+    width: 100px;
+    height: 120px;
+    margin: auto;
+    border: 1px solid black;
+}
