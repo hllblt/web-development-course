@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1 h1 {
+    font-family: sans-serif;
+    /* font-style: oblique; */
+    font-weight: 800;
+    font-variant: small-caps;
+}
+.container1 p {
+    font-family: "Neonderthaw", cursive;
+    /* font-weight: bold; */
+    font-size: 30px;
+}
+
+.container2 {
+    padding: 30px 0 0 30px;
+}
+
+.container2 a {
+    font-size: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: gray;
+    transition: 0.3s;
+}
+#facebook:hover {
+    color: #395693;
+}
+#twitter:hover {
+    color: #1c9cea;
+}
+#instagram:hover {
+    color: #c131aa;
+}
+#discord:hover {
+    color: #5562ea;
+}
+#youtube:hover {
+    color: #f40000;
+}
+ul {
+    margin-left: 50px;
+    /* background: red; */
+    background: yellow;
+}
+ul li {
+    background: red;
+    margin: 5px;
+    display: inline-block;
+}
+#button1 {
+    display: block;
+    background: yellow;
+    transition: 2s;
+    width: 100px;
+}
+#button1:hover{
+    width: 1000px;
+}
+#span1 {
+    background: purple;
+    color: white;
+    display: block;
+    transition: 0.5s e;
+}
+#span1:hover {
+    opacity: 0;
+    /* display: none; */
+}
