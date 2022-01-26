@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lesson 12</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="./lesson-12.html" method="post" autocomplete="on">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstName" /><br />
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastName" /><br />
+            <input type="submit" value="Submit" />
+        </form>
+            <hr />
+        <form action="./lesson-12.html">
+            <input type="radio" id="htmlInput" name="language" value="html" />
+            <label for="htmlInput">HTML</label><br />
+            <input type="radio" id="cssInput" name="language" value="css" />
+            <label for="cssInput">CSS</label><br />
+            <input type="radio" id="jsInput" name="language" value="js" />
+            <label for="jsInput">JavaScript</label>
+            <hr />
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+            <label for="vehicle1"> I have a bike</label><br />
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+            <label for="vehicle2"> I have a car</label><br />
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> I have a boat</label>
+            <input type="submit" value="Submit" />
+        </form>
+        <hr>
+        <form action="">
+            <select name="carBrand" id="carBrand">
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+            </select>
+            <textarea name="" id="" cols="10" rows="5"></textarea>
+            <button type="reset">Reset</button>
+        </form>
+        <form action="/action_page.php">
+            <fieldset>
+              <legend>Personalia:</legend>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="John"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="Doe"><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form> 
+          <hr>
+          <form action="/action_page.php">
+            <label for="browser">Hangi tarayıcıyı kullanıyorsunuz?</label><br>
+            <input list="browsers" id="browser">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+              <option value="Brave">
+            </datalist>
+          </form> 
+        <!-- <input type="radio" />
+            <br><br>
+        <input type="checkbox" />
+        <br><br>
+        <input type="submit" />
+        <br><br>
+        <input type="button" /> -->
+    </body>
+</html>
