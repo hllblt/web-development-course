@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+}
+.container1 h1 {
+    color: red;
+}
+.container1 p {
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+    border: 1px solid red;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container2 {
+    margin-top: 20px;
+    border: 1px solid green;
+    height: 100px;
+}
+.container2 h2 {
+    border: 1px solid blue;
+    float: right;
+}
+.container2 h3 {
+    border: 1px solid orange;
+    float: right;
+}
+
+
+.container3{
+    margin-top: 20px;
+    border: 1px solid blue;
+}
+
+.container3 p{
+    color: red;
+}
+
+.container3>p{
+    color:green;
+}
+
+#paragraf+p{
+    color: orange;
+}
+
+#paragraf_alt~p{
+    color: blue;
+    opacity: 0.5;
+}
+
+
+.container4{
+    background-image: url("https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://www.a3haber.com/wp-content/uploads/2020/06/unnamed-1-680x365_c.jpg");
+    width: auto;
+    height: 500px;
+}
+
+.container4>button{
+    margin: 50px 0 0 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
