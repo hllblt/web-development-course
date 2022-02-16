@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    /* border: 1px  solid red; */
+}
+
+.siteLogo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    /* border: 1px solid green; */
+}
+.siteLogo img {
+    height: 60%;
+}
+
+/*NAVBAR*/
+
+.navBar {
+    height: 100%;
+    /* border: 1px solid purple; */
+    margin-left: -360px;
+}
+
+.navBar ul {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+}
+.navBar ul .navBarLinks {
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navBar ul .navBarLinks:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.navBar ul .navBarLinks:hover .new {
+    color: black;
+}
+
+.new{
+    background-color: white;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* OTHERS */
+
+.others {
+    height: 100%;
+    /* border: 1px solid green; */
+    margin-right: -300px;
+}
+
+.others ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.others ul .otherLinks {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.others ul .icons:hover {
+    color: #04aa6d;
+}
+
+#website {
+    background-color: pink;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+#website:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+#website:hover .new{
+    color:black;
+}
+#paid {
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 12px 15px;
+    border-radius: 20px;
+}
+
+#paid:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+/* accountIcon */
+
+.accountIcon {
+    /* border: 1px solid orange; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(133, 235, 133);
+    margin-right: 30px;
+}
+.accountIcon i {
+    border: 3px solid rgb(238, 238, 238);
+    padding: 10px 11px;
+    border-radius: 50%;
+}
+
+
+/* MAIN */
+
+main{
+    height: 100vh;
+    background-color: #282A35;
+}
